@@ -7,9 +7,7 @@
       box-sizing: border-box;
 
     }
-img {
-  object-fit: fill;
-}
+
 .homeabout{
   grid-area: 3 / 1 / 5 / 6;
   margin-top: 15px;
@@ -195,6 +193,7 @@ display: inline-grid;
 
 
 .me{
+  display: inline-grid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -477,4 +476,8 @@ padding-top: 15px;
   font-family: quasimoda, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.caption-text p {
+padding-top: 30px;
+
 }
