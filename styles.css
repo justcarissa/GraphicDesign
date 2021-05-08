@@ -179,6 +179,13 @@ margin-right: 40px;
 align-content: center;
 
 }
+.nav-item1{
+
+  margin-right: -3px;
+}
+
+
+
 
 .sidebar {
 
@@ -187,10 +194,11 @@ align-content: center;
 
 
 
-
+}
+i{
+  padding: 1px;
 
 }
-
 
 
 .style ul {
