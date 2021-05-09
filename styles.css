@@ -144,17 +144,19 @@ display: inline-grid;
   line-height: 30px;
   color: #F0FFFF;  grid-area: 3 / 1 / 5 / 6;
   height: 120px;
+  width: 200px;
 
   }
   .EMAIL{
-
-    margin-left: 20px;
-    color: #63abb7;
     font-family: quasimoda, sans-serif;
 
-    font-weight: 700;
+    font-weight: 800;
 
     font-style: normal;
+
+    margin-left: 15px;
+    color: #63abb7;
+
 
     color: #F0FFFF;
     }
@@ -194,7 +196,7 @@ display: inline-grid;
 
 
 .container img{display: inline-grid;
-  max-width: 100%;
+  max-width: 60%;
       min-width: 200px;  grid-area: 3 / 1 / 5 / 6;
       height: auto;
     margin-bottom: 10px;
@@ -210,7 +212,7 @@ display: inline-grid;
 .listmail{
   margin-top: -20px;
 
-  margin-left: -20px;
+  margin-left: -25px;
 }
 
 
