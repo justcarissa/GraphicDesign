@@ -18,7 +18,7 @@
 padding-top: 20px;
 font-family: quasimoda, sans-serif;
 line-height: 20px;
-padding-right: 20px;
+padding-right: 10px;
 }
 
 .Skills{
@@ -48,8 +48,8 @@ margin-top: -6px;
   margin-top: -10px;
   color: #40757e;  padding-left: 25px;
     margin-bottom: 30px;
-    padding-right: 10px;
-    margin-left: 10px;
+margin-right: 5px;
+    margin-left: 5px;
 }
 }
 
@@ -62,7 +62,7 @@ margin-top: -6px;
     font-weight: 400;
     font-size: 16px;
   margin-top: -10px;
-  color: #40757e;  padding-left: 25px;
+  color: #40757e;  padding-left: 20px;
     margin-bottom: 30px;
 }
 
@@ -76,7 +76,7 @@ margin-top: -6px;
   font-size: 12px;
 margin-top: 15px;
   margin-bottom: 20px;
-  padding-left: 25px;
+margin-left: 20px;
 }
 
 .buttons .fa{
@@ -195,7 +195,7 @@ display: inline-grid;
 
 .container img{display: inline-grid;
   max-width: 100%;
-      min-width: 200px;
+      min-width: 200px;  grid-area: 3 / 1 / 5 / 6;
       height: auto;
     margin-bottom: 10px;
 }
