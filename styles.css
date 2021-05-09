@@ -139,14 +139,15 @@ text-align: right;
 
 .email{  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #40757e;
-
+display: inline-grid;
   font-family: quasimoda, sans-serif;
   line-height: 30px;
   color: #F0FFFF;  grid-area: 3 / 1 / 5 / 6;
-  margin-top: 5px;
+  height: 120px;
+
   }
   .EMAIL{
-    padding-top: 15px;
+
     margin-left: 20px;
     color: #63abb7;
     font-family: quasimoda, sans-serif;
@@ -192,10 +193,11 @@ text-align: right;
 }
 
 
-.container img{
+.container img{display: inline-grid;
   max-width: 100%;
       min-width: 200px;
       height: auto;
+    margin-bottom: 10px;
 }
 .me{
 
@@ -206,8 +208,8 @@ text-align: right;
 }
 
 .listmail{
-  margin-top: -15px;
-padding-bottom: 10px;
+  margin-top: -20px;
+
   margin-left: -20px;
 }
 
