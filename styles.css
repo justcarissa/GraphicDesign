@@ -191,9 +191,9 @@ text-align: right;
 
 
 .container img{
+height:360px;
 
-
-  width: 100%;
+  width: auto;
 }
 .me{
   display: inline-grid;
