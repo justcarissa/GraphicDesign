@@ -30,7 +30,7 @@ padding-right: 20px;
 
   font-style: normal;
 
-margin-top: -8px;
+margin-top: -6px;
   color: #40757e;
 
 }
@@ -139,12 +139,14 @@ text-align: right;
 
 .email{  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #40757e;
-  padding-top: 10px;
+
   font-family: quasimoda, sans-serif;
   line-height: 30px;
   color: #F0FFFF;  grid-area: 3 / 1 / 5 / 6;
+  margin-top: 5px;
   }
   .EMAIL{
+    padding-top: 15px;
     margin-left: 20px;
     color: #63abb7;
     font-family: quasimoda, sans-serif;
@@ -191,14 +193,16 @@ text-align: right;
 
 
 .container img{
-height:360px;
-
-  width: auto;
+  max-width: 100%;
+      min-width: 200px;
+      height: auto;
 }
 .me{
-  display: inline-grid;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 100%;
+        min-width: 300px;
+        height: auto;
 }
 
 .listmail{
