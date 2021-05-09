@@ -191,8 +191,7 @@ text-align: right;
 
 
 .container img{
-  display: flex;
-  flex: auto;
+
 
   width: 100%;
 }
