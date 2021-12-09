@@ -416,9 +416,11 @@ i{
 }
 
 .title {
+  h1{
+    font-weight: 200;}
   color: #40757e;
-  font-family: quasimoda-2, sans-serif;
-  font-weight: 400;
+  font-family: quasimoda, sans-serif;
+ 
   font-style: normal;
   text-align: left;
   font-size: 12px;
