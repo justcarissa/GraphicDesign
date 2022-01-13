@@ -31,7 +31,7 @@ padding-right: 20px;
   font-style: normal;
 
 margin-top: -6px;
-  color: #40757e;
+  color: #29373B;
 
 }
 
@@ -46,7 +46,7 @@ margin-top: -6px;
     font-weight: 400;
     font-size: 16px;
   margin-top: -10px;
-  color: #40757e;  padding-left: 25px;
+  color: #29373B;  padding-left: 25px;
     margin-bottom: 30px;
 margin-right: 5px;
     margin-left: 5px;
@@ -62,13 +62,13 @@ margin-right: 5px;
     font-weight: 400;
     font-size: 16px;
   margin-top: -10px;
-  color: #40757e;  padding-left: 20px;
+  color: #29373B;  padding-left: 20px;
     margin-bottom: 30px;
 }
 
 .title1 {
   padding-top: 20px;
-  color: #40757e;
+  color: #29373B;
   font-family: quasimoda-2, sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -280,7 +280,7 @@ margin: auto;
   grid-area: 1 / 1 / 2 / 6;
   text-align: left;
 
-  background-color: #40757e;
+  background-color: #29373B;
 }
 
 .sidebar {
