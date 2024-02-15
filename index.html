@@ -3,135 +3,149 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HOME</title>
-  <link rel="stylesheet" href="styles.css" rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Design</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    @import url("https://use.typekit.net/odm2npt.css");
-  </style>
-
 </head>
-<div class="parent">
 
+<body>
 
-  <div class="header"> <img class="mylogo" src="graphic design work\mylogo.png" alt="mylogo.png" width="60%">
+  <header>
+    <div class="header-container">
+      <img id="logo" src="homeimages\logo.png" alt="logo.png" />
 
-  </div>
-
-  <div class="sidebar1">
-
-    <div class="buttons">
-      <nav>
+      <!-- Navigation Bar -->
+      <nav class="navbar">
         <ul>
-
-              <li class>      <a href="index.html"><button class="button"><i class="fa fa-home"></i></button></a><li>
-          <li>
-
-          <li > <a href="graphicdesign.html"><button class="button">GRAPHIC <br>DESIGN</button></a></li>
-
-
-          <li> <a href="graphicart.html"><button class="button">GRAPHIC <br>ART</button></a></li>
-          <li> <a href="creativework.html"><button class="button">CREATIVE <br>WORK</button></a></li>
+          <li class="selected"><a href="index.html">ABOUT</a></li>
+          <li><a href="graphicdesign.html">PORTFOLIO</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="form.html">CONTACT</a></li>
         </ul>
-
       </nav>
     </div>
 
-    <div class="socials">
-      <div class="icons">
-        <a href="https://www.facebook.com/carissa.justice.50" class="fa fa-facebook"></a>
+    <!-- Container for the hamburger menu -->
+  <div class="mobile-menu-container">
+    <nav id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </nav>
 
-        <a href="https://www.instagram.com/jcarissaj/?hl=en" class="fa fa-instagram"></a>
+    <!-- Mobile Menu -->
+    <ul class="mobile-menu">
+      <li class="selected"><a href="index.html">ABOUT</a></li>
+      <li><a href="graphicdesign.html">PORTFOLIO</a></li>
+      <li><a href="services.html">SERVICES</a></li>
+      <li><a href="form.html">CONTACT</a></li>
+    </ul>
+  </div>
+  </header>
 
-        <a href="https://business.google.com/dashboard/l/09163329169395981781?hl=en" class="fa fa-google"></a>
+  <!-- The flexible grid (content) -->
+  <div class="row">
+    <div class="side">
+      <h3 class="bullet-header-1">About</h3>
+      <p>A skilled Graphic Designer with a thorough understanding of Adobe Creative Suite, digital illustration, and web design. Possessing over two years of experience in managing individual and group projects, with the ability to execute digital
+        and print experiences. Other areas of expertise would include fine art such as painting, drawing, and writing.</p>
+      <img src="homeimages\mepic.jpg" class="me" alt="mepic.jpg" />
+    </div>
 
-        <a href="https://www.linkedin.com/in/carissajust/" class="fa fa-linkedin"></a>
-        <a href="https://www.pinterest.com/carissarjust/_saved/" class="fa fa-pinterest"></a>
+    <div class="main">
+      <h2>GRAPHIC DESIGN</h2>
+      <br>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="graphic design work\beach.jpg" alt="beach.jpg">
+          <div class="text">Beach Pixel art</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="graphic design work\lighting.jpg" alt="lighting.jpg">
+          <div class="text">History of Lighting Infographic</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="graphic design work\lighting.jpg" alt="lighting.jpg" >
+          <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
       </div>
+      <br>
 
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <br>
+      <p>Some examples of my illustrative and Design work.</p>
+      <p></p>
+      <br>
+
+
+
+      <h2>PAINTINGS, DRAWINGS, & MINIATURES</h2>
+
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Other Hobbies and things I am willing to do commissions on.</p>
     </div>
-
-
-
   </div>
 
-
-
-
-  <div class="homeabout">
-    <div class="title1">
-      <h1>ABOUT.<h1>
-    </div>
-  <div class="about"> Welcome to my first site. My name is Carissa Just and I am a novice graphic designer. My goal for this site is to showcase my porfolio and to create a web-presence and brand. I prioritize quality, attention to detail, and creativity. I will be regularly updating my site and adding to the portfolio. For contact information, check out my social bar above!</div>
-
-
-
-
-<div class="col">
-
-   <div class="skillsgroups">
-
-         <h2 class="Skills">Skills</h1>
-     <ul class= "list">
-       <li>Adobe Suite</li>
-           <li>Microsoft Office</li>
-         <li>Cinema 4D</li>
-       <li>Painting</li>
-         <li>Drawing</li>
-         <li>Basic HTML knowledge</li>
-       </ul>
-
-
-
-       <h2 class="Skills">Education</h2>
-   <ul class= "list">
-     <li>Associates of Arts (Tri-C 2020)</li>
-         <li>Associates of Graphic Design (Tri-C 2021)</li>
-     </ul>
-
-
-   <h2 class="Skills">Commisions</h1>
-   <ul class= "list">
-   <li>Logo Designs</li>
-   <li>Poster Designs</li>
-   <li>Flyers, Brochures, Pamphlets</li>
-   <li>Package Design</li>
-     <li>Branding</li>
-     <li>Photo Retouching</li>
-     <li>Paintings and Drawings</li>
-   </ul>
-   </div>
-
- </div>
-
-
-
- <div class="col">
-
-     <div class="container">
-      <img class="me" src="homeimages\mewithleavesretouch.jpg" alt="mewithleavesretouch.jpg" >
-    </div>
-
- </div>
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
+  <!-- Footer -->
   <div class="footer">
-   
+    <div class="socials">
+      <ul class="icons">
+        <li><a href="https://carissacancreate.etsy.com" class="fa fa-etsy"></a></li>
+        <li><a href="https://www.instagram.com/jcarissaj/?hl=en" class="fa fa-instagram"></a></li>
+        <li><a href="https://goo.gl/maps/Eb9kHn2WzVMDZjh26" class="fa fa-google"></a></li>
+        <li><a href="https://www.linkedin.com/in/carissajust" class="fa fa-linkedin"></a></li>
+        <li><a href="https://www.pinterest.com/carissarjust/_saved/" class="fa fa-pinterest"></a></li>
+      </ul>
+    </div>
+    <p>2023 Carissa's Creations&copy</p>
   </div>
 
-</div>
+  <script src="script.js"></script>
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+  </body>
 
 
-</html>
+  </html>
